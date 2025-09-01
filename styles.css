@@ -379,6 +379,23 @@ main {
   }
 }
 
+/* Mobile Apps Section Styles - reuse apps-card */
+.mobile-card {
+  background-color: var(--bg-tertiary);
+  border-radius: 15px;
+  padding: 1.5rem;
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
 /* Interests Section Styles */
 .interests-list {
   display: grid;
